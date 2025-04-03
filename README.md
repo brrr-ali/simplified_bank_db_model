@@ -1,0 +1,1 @@
+# simplified_bank_db_model
