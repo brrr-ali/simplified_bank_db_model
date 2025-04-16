@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class Main {
     public static void main(String[] args) {
-        String dbUrl = "jdbc:postgresql://localhost:5432/bank2";
-        String username = "postgres";
-        String password = "6110";
+        String dbUrl = "jdbc:postgresql://localhost:PORT/NAMEDATABASE";
+        String username = "INSERT YOUR USERNAME";
+        String password = "INSERT YOUR PASSWORD";
         try (Connection connection = DriverManager.getConnection(dbUrl, username, password)) {
             if (connection != null) {
                 System.out.println("Успех");
